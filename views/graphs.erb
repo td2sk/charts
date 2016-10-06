@@ -1,0 +1,5 @@
+<ul>
+  <% @graphs.each do |graph| %>
+    <li><a href=<%= "/graphs/#{graph.id}" %>><%= graph.name %></a></li>
+  <% end %>
+</ul>
